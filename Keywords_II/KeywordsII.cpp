@@ -99,6 +99,7 @@ int main()
 	cout << "Again, I ask...";
 	cout << userName << " are you up for the challenge? Yes or No?" << endl;
 	cin >> startGameWord;
+	//Giving the user a chance to start the game....or so they think...
 	if (startGameWord == "Yes" || startGameWord == "yes")
 	{
 		cout << "\nGood Choice " << userName << ", glad you are still with me.\n" << endl;
