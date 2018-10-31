@@ -88,25 +88,26 @@ int main()
 	}
 	else
 	{
-		cout << "\nToo bad. You are playing anyway. You're a recruit remember....\n\n";
+		cout << "\nOops, you didn't type yes. That's fine though you are playing anyway. You're a recruit remember....\n\n";
 	}
 
 	
 	// Display an directions to the recruit on how to use Keywords
 	cout << "I guess I better tell you how to play." << endl;
 	cout << userName << ", the concept is easy. Just re-read what I already told you to do earlier." << endl;
-	cout << "I repeat this twice...you would be surprised the amount of people who don't read." << endl;
-	cout << "Again, I ask...";
+	cout << "Sometimes, I need to repeat this twice...you would be surprised the amount of people who don't read." << endl;
+	cout << "\nSo again, I ask..." << endl;
+	system("pause");
 	cout << userName << " are you up for the challenge? Yes or No?" << endl;
 	cin >> startGameWord;
 	//Giving the user a chance to start the game....or so they think...
 	if (startGameWord == "Yes" || startGameWord == "yes")
 	{
-		cout << "\nGood Choice " << userName << ", glad you are still with me.\n" << endl;
+		cout << "\nGood Choice " << userName << ", glad to see you are making good life choices...\n\n";
 	}
 	else
 	{
-		cout << "\nToo bad....You're a recruit remember....\n\n";
+		cout << "\nOops, you haven't learned yet. You don't have a choice. You're a recruit remember....\n\n";
 	}
 
 
